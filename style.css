@@ -1,0 +1,110 @@
+body {
+  width: 100vb;
+  height: 100vh;
+}
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+.header {
+  background-image: url(Rectangle\ 1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 1024px;
+  width: 1440px;
+}
+.text {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 217px;
+}
+
+.p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.span {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}
+.a {
+  width: 234px;
+  height: 48px;
+  border-radius: 50px;
+  background: #9c0332;
+  border: 1px solid #9c0332;
+  font-size: 14px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 34px 10px 33px;
+  text-decoration: none;
+}
+.a:hover {
+  text-decoration: underline;
+}
+.section {
+  background: #000915;
+}
+
+.img1 {
+  background-image: url(Rectangle\ 6.jpg);
+  background-repeat: no-repeat;
+  width: 379px;
+  height: 300px;
+  align-items: center;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+.img2 {
+  background-image: url(Rectangle\ 7.jpg);
+  background-repeat: no-repeat;
+  width: 379px;
+  height: 300px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+.img3 {
+  background-image: url(Rectangle\ 8.jpg);
+  background-repeat: no-repeat;
+  width: 379px;
+  height: 300px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+}
+.div {
+  display: flex;
+  gap: 30px;
+}
+.footer {
+  height: 1024px;
+
+  background: #000915;
+}
